@@ -1,0 +1,5 @@
+Experiment,Representation,Qubits,Accuracy,Precision,Recall,F1 Score,ROC-AUC,Runtime (seconds)
+"Feature selection, ZZ reps=2","age_years, ap_hi, BMI, weight",4,0.488,0.4848484848,0.5161290323,0.5,0.5003200205,
+"PCA, ZZ reps=2","PC1, PC2, PC3, PC4",4,0.484,0.480620155,0.5,0.4901185771,0.4916154634,
+ZZ reps=1,4 selected features,4,0.456,0.4411764706,0.3629032258,0.3982300885,0.4475166411,541.085
+Z feature map reps=1,4 selected features,4,0.632,0.629,0.629,0.629,0.6539,487.2022
