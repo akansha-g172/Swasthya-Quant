@@ -1,0 +1,18 @@
+{
+  "project": "Hybrid Quantum Machine Learning Platform for Early Disease Detection",
+  "model_variable_aliases": {
+    "Logistic Regression": "lr_model",
+    "Classical SVM": "svm_model",
+    "Random Forest": "rf_model",
+    "Quantum SVM (Z map)": "qsvm_model"
+  },
+  "benchmark_tables": [
+    "classical_reference",
+    "four_feature_svm_qsvm",
+    "z_map_svm_qsvm",
+    "qsvm_experiments",
+    "svm_seed_stability",
+    "svm_stability_summary"
+  ],
+  "note": "Results from different experiments are kept in separate tables."
+}

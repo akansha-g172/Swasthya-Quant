@@ -1,0 +1,3 @@
+Model,Accuracy,Precision,Recall,Specificity,F1 Score,ROC-AUC,Runtime (seconds),Experiment/Setup
+Classical SVM (RBF),0.712,0.7,0.7339,,0.7165,0.7465,0.0217,SVM vs Z-map QSVM experiment
+Quantum SVM (Z map),0.632,0.629,0.629,,0.629,0.6539,755.0195,"Z feature map, reps=1; 4 selected features"
